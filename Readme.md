@@ -1,6 +1,6 @@
 <h1 align="center">🎮 GAME OF COLORS </h1>
 
-<h2 align="center"><a href="">🚀 Clique Aqui Para Jogar 🚀</a></h2>
+<h2 align="center"><a href="https://aandersonsantos.github.io/Game-Of-Colors/">🚀 Clique Aqui Para Jogar 🚀</a></h2>
 
 <h2 align="center">👁‍🗨👁‍🗨</h2>
 <h3 align="center">⬇️Demonstração Do Jogo⬇️</h3>
@@ -41,4 +41,4 @@ git clone https://github.com/AAndersonSantos/Game-Of-Colors.git
 
 ## 📝**Licença Do Projeto**
 
-[MIT]()
+[MIT](https://github.com/AAndersonSantos/Game-Of-Colors/blob/main/LICENSE)
