@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    background: #A2B5CD;
+}
+
+.main_game{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nextLevel{
+    position: absolute;
+    top: -12px;
+    right: 610px;
+    font-size: 17px;
+    font-family: 'Luminari', Impact;
+    color: black;
+
+}
+
+#placar{
+    position: absolute;
+    top: 470px;
+    right: 1200px;
+    font-size: 25px;
+    font-family: 'Luminari', Impact;
+    color: rgb(0, 0, 0);
+}
+
+#inicio {
+	width:320px;
+    font-family: Times;
+    color: white;
+    border: solid 2px white;
+	height:210px;
+	background-color: #00EE76;
+	font-size: 20px;
+    position: relative;
+ 	margin-left:auto;
+    margin-right:auto;
+	text-align:center;
+	padding:10px;
+}
+
+#inicio h1{
+    margin-bottom: -20px;
+    font-size: 46px;
+    color: rgb(255, 0, 0);
+}
+
+#inicio h4{
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
+
+#inicio:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+}
+
+
+#genius{
+    display: none;
+    grid-template-areas: 'verde vermelho' 'amarelo azul';
+    grid-gap: 10px;
+    border: 12px solid white;
+    background: white;
+    border-radius: 5%;
+    width: 600px;
+    height: 450px;
+}
+
+.blue{
+    grid-area: azul;
+    background-color: blue;
+    border-bottom-right-radius: 5%;
+    
+}
+.blue:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.red{
+    grid-area: vermelho;
+    background-color: red;
+    border-top-right-radius: 5%;
+}
+.red:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.yellow{
+    grid-area: amarelo;
+    background-color: yellow;
+    border-bottom-left-radius: 5%;
+}
+.yellow:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.green{
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 5%;
+}
+.green:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.select{
+    opacity: 0.1;
+}
+
+#fim{
+    height: 200px;
+    width: 300px;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: solid 2px white;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#fim h1{
+    font-size: 55px;
+    margin-bottom: -20px;
+    color: rgb(255, 255, 255);
+}
+
+#fim:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+}
+
