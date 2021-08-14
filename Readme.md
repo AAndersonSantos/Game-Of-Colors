@@ -19,7 +19,7 @@
 
 ---
 
-## 💻**Tecnologias Ultilizadas**
+## 💻**Tecnologias**
 
 * [Html](https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/HTML5)
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
@@ -30,9 +30,8 @@
 
 ## 💾**Clone Do Repositório**
 
+#Para fazer clone do repositório utilizando git use a linha de comando abaixo:
 ```
-#Para fazer clone do repositório ultilizando git use a linha de comando abaixo:
-
 git clone https://github.com/AAndersonSantos/Game-Of-Colors.git
 
 ```
